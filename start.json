@@ -1,9 +1,9 @@
 {
   "apps": [{
-    "name": "pm2test",
-    "script": "/home/pk/Downloads/pm2test/index.js",
+    "name": "pm2-issue-2984",
+    "script": "/home/pk/Downloads/pm2-issue-2984/index.js",
     "args": "--env=production",
-    "cwd": "/home/pk/Downloads/pm2test/",
+    "cwd": "/home/pk/Downloads/pm2-issue-2984/",
     "max_memory_restart" : "1500M",
     "exec_mode": "fork",
     "instances": 4
