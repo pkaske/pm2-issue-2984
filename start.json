@@ -1,0 +1,11 @@
+{
+  "apps": [{
+    "name": "pm2test",
+    "script": "/home/pk/Downloads/pm2test/index.js",
+    "args": "--env=production",
+    "cwd": "/home/pk/Downloads/pm2test/",
+    "max_memory_restart" : "1500M",
+    "exec_mode": "fork",
+    "instances": 4
+  }]
+}
